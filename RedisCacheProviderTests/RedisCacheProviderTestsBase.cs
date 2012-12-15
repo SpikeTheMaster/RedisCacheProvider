@@ -2,6 +2,7 @@
 using System.Threading;
 using NUnit.Framework;
 using RedisCacheProvider;
+using RedisCacheProvider.CacheProviders;
 
 namespace RedisCacheProviderTests
 {

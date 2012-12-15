@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Runtime.Serialization;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace RedisCacheProvider
+namespace RedisCacheProvider.CacheProviders
 {
     /// <summary>
     /// Uses DataContract serialisation to store .NET Objects.

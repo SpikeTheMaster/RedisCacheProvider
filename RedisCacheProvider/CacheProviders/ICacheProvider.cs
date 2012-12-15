@@ -1,8 +1,7 @@
-﻿using System;
-using System.Runtime.Serialization;
+using System;
 using System.Threading.Tasks;
 
-namespace RedisCacheProvider
+namespace RedisCacheProvider.CacheProviders
 {
     public interface ICacheProvider
     {

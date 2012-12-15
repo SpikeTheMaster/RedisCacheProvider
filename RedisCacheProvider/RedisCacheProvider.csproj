@@ -45,19 +45,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CacheProviders\ICacheProvider.cs" />
+    <Compile Include="CacheProviders\RedisBinaryCacheProvider.cs" />
+    <Compile Include="CacheProviders\RedisCacheProviderBase.cs" />
+    <Compile Include="CacheProviders\RedisDataContractCacheProvider.cs" />
     <Compile Include="Helpers.cs" />
-    <Compile Include="ICacheProvider.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="RedisBinaryCacheProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RedisCacheProviderBase.cs" />
     <Compile Include="RedisCacheProviderFactory.cs" />
     <Compile Include="RedisConnectionSettings.cs" />
-    <Compile Include="RedisDataContractCacheProvider.cs" />
     <Compile Include="SeralisationType.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -68,6 +68,7 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

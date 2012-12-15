@@ -1,9 +1,9 @@
-﻿using System;
+using System;
 using System.Text;
 using System.Threading.Tasks;
 using BookSleeve;
 
-namespace RedisCacheProvider
+namespace RedisCacheProvider.CacheProviders
 {
     public abstract class RedisCacheProviderBase : ICacheProvider
     {

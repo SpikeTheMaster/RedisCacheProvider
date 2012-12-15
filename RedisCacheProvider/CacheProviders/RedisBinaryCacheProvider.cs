@@ -1,9 +1,9 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Threading.Tasks;
 
-namespace RedisCacheProvider
+namespace RedisCacheProvider.CacheProviders
 {
     /// <summary>
     /// Stores .NET Objects in Redis.
